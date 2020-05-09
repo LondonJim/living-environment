@@ -5,11 +5,17 @@
     <title></title>
     <link rel="stylesheet" href="./public/styles.css">
     <script src="src/living-environment.js"></script>
+    <script src="src/organism.js"></script>
+    <script src="src/habitat"></script>
 </head>
 <body>
-<div></div>
+<div>
+    <canvas class="playBoard" width="320" height="240">
+    </canvas>
+</div>
 <script>
-    environment = new livingEnvironment()
+    environment = new livingEnvironment();
+    environment.start();
 </script>
 </body>
 </html>
